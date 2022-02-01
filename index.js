@@ -281,13 +281,13 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER: NO
+// ANSWER: YES
 
 
 // Q: What is the space complexity of each? 
 // ANSWER - countLetters: O(1)
-// ANSWER - countLettersRoundTwo: O(n)
+// ANSWER - countLettersRoundTwo: O(1)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: the first function has a constant object, the second's object will depend on the lenght of the string sent in
+// ANSWER: the first function has a constant object, the second's object will depend on the length of the string sent in but will never exceed 24 key value pairs
