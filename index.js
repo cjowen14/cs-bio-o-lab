@@ -41,7 +41,7 @@ function findFourth(numbers) {
 // ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
@@ -86,7 +86,7 @@ function printC(num, arr) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n^2)
 
 
 // 6) -------------------------------------------------------
@@ -101,7 +101,7 @@ function nested(numbers) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(1)
+// ANSWER: O(n^2)
 
 
 
@@ -115,7 +115,7 @@ let newNumbersA = numbers.filter((num) => {
 // ANSWER: O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -285,9 +285,9 @@ function countLettersRoundTwo(str) {
 
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters: O(1)
-// ANSWER - countLettersRoundTwo: O(1)
+// ANSWER - countLetters: O(n)
+// ANSWER - countLettersRoundTwo: O(n)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: the first function has a constant object, the second's object will depend on the length of the string sent in but will never exceed 24 key value pairs
+// ANSWER: both are dependent on the length of the string
